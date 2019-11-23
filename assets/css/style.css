@@ -73,6 +73,8 @@ a:hover {
     padding-left: 20px;
     padding-right: 20px;
     height: fit-content;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 /*Making the HR tag match colorwise*/
@@ -134,13 +136,14 @@ label {
     text-align: left;
     line-height: 32px;
     margin-bottom: 10px;
+    clear: both;
 }
 
 /*couldn't use input because it was making the 
 submit button hilariously large this also lets
 me get the textarea included*/
 .form-width {
-    width: 99%;
+    width: 100%;
     clear:both;
 }
 
@@ -165,11 +168,17 @@ me get the textarea included*/
 /*Next 20 lines are for PORTFOLIO PAGE
 Table to set pictures and text, 
 that would probably be links later on*/
-.table-img, td {
+.table-img {
+    padding: 15px;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+}
+td {
     padding: 15px;
     position: relative;
 }
-
 .container {
     position: relative;
     text-align: center;
@@ -179,17 +188,23 @@ that would probably be links later on*/
     position: absolute;
     background-color: #4aaaa5;
     color: #ffffff;
-    top: 70%;
-    width: 100%;
-    line-height: 2em;
+    top: 60%;
+    left: 13px;
+    width: 249px;
+    line-height: 4em;
 }
 
-/*add a fun but useless color effect on hover*/
-td:hover {
+.box {
+    width: 250px;
+}
+
+/*add a fun but useless color effect on hover
+Took this out, but I liked it so its not deleted*/
+/* td:hover {
     filter: grayscale(0%);
 }
 
 
 td {
     filter: grayscale(100%);
-}
+} */
