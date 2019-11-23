@@ -75,6 +75,7 @@ a:hover {
     height: fit-content;
 }
 
+/*Making the HR tag match colorwise*/
 hr { 
     display: block; 
     height: 1px;
@@ -90,7 +91,7 @@ hr {
     right: 10px;
     font-weight: bold;
 }
-
+ /*Getting that super sticky footer*/
 footer {
     position: fixed;
     bottom: 0;
@@ -104,7 +105,7 @@ footer {
     color: #ffffff;
 }
 
-/**/
+/*Profile page layout*/
 .profilepic {
     position: relative;
     height: 250px;
@@ -139,7 +140,8 @@ label {
 submit button hilariously large this also lets
 me get the textarea included*/
 .form-width {
-    width: 100%;
+    width: 99%;
+    clear:both;
 }
 
 /*making that button look like its from bootstrap*/
