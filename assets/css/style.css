@@ -48,6 +48,9 @@ h1, h2, h3, h4 {
     float: right;
     margin: 35px;
 }
+a {
+    color: #777777;
+}
 a:visited {
     color:  #4aaaa5;
 }
