@@ -2,37 +2,43 @@
 <html lang="en-us">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <title>
             Michael Hughes - Contact
         </title>
     </head>
     <body>
-        <header>
-            <h1>Michael Hughes</h1>
+        <div class="heading">
+        </div> 
+            <div class="name">
+            <h1>  Michael Hughes  </h1>
+            </div>
             <div class="topnav">
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
+                <a href="index.html">About</a>   |  
+                <a href="portfolio.html">Portfolio</a>   |  
                 <a href="contact.html">Contact</a>
-            </div>            
-        </header>
-        <div class="container_contact">
-            <header>
+            </div>
+        <div id="container_main">
+            <header>   
+                <div id="page-name">
                 <h1>
                     Contact
                 </h1>
-            </header>
+                </div>
+            </header>     
             <hr>
             <form action="/action_page.php">
-                <label for="Name">Name</label>
-                <input type="text" id="Name" name="contactname" placeholder="John Smith">
-
-                <label for="email">Email</label>
-                <input type="text" id="Email" name="contactemail" placeholder="John@Smith.com">
-                      
+                <label for="contact_name">Name</label>
+                <input class ="form-width" type="text" id="contact_name" name="contactname" placeholder="John Smith">
+                <br>
+                <label for="Email">Email</label>
+                <input class ="form-width" type="text" id="Email" name="contactemail" placeholder="example@gmail.com">
+                <br>     
                 <label for="subject">Message</label>
-                <textarea id="message" name="message" placeholder="" style="height:200px"></textarea>
-                      
-                <input type="submit" value="Submit">
+                <textarea class ="form-width" id="message" name="message" placeholder="" style="height:200px"></textarea>
+                <br>     
+                <input class="btn" type="submit" value="Submit">
             </form>
         </div>
         <footer>
